@@ -180,6 +180,10 @@ public void onRestoreInstanceState(Bundle savedInstanceState) {
 这我们引用本知识库里的一张图片：
 ![Mou icon](https://github.com/GeniusVJR/LearningNotes/blob/master/Part1/Android/FlowchartDiagram.jpg?raw=true)
 
+下面是个人补充内容：
+(1)当从Activity A跳转到Activity B，且B中是直接从布局文件中的使用<fragment/>节点添加的Fragment
+![从A跳转到B时](http://ou285un8o.bkt.clouddn.com/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F1-%E7%9B%B4%E6%8E%A5%E5%9C%A8Activity%E4%B8%AD%E7%9A%84%E5%B8%83%E5%B1%80%E6%96%87%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8fragment%E8%8A%82%E7%82%B9%E6%B7%BB%E5%8A%A0.png)
+![从B返回A时](http://ou285un8o.bkt.clouddn.com/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F2-%E7%9B%B4%E6%8E%A5%E5%9C%A8Activity%E4%B8%AD%E7%9A%84%E5%B8%83%E5%B1%80%E6%96%87%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8fragment%E8%8A%82%E7%82%B9%E6%B7%BB%E5%8A%A0.png)
 
 **为什么在Service中创建子线程而不是Activity中**
 
